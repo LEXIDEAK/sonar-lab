@@ -1,5 +1,11 @@
 def divide (a, b):
     return a / b
+    
+def multiply(a, b):
+    result = 0
+    for i in range(0, b):
+        result = result + a
+    return result
 
 def calculate_average(numbers):
     total = 0
